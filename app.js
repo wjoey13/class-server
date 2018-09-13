@@ -2,9 +2,10 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT;
 const queries = require('./queries');
+const bodyParser = require('body-parser')
 
 app.use(bodyParser.json());
-app.use(heroku());
+app.use(cors());
 
 app.listen(3000,() => console.log('listening on ${port}'));
 
