@@ -1,13 +1,13 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 3000;
 const queries = require('./queries');
 const bodyParser = require('body-parser')
 
 app.use(bodyParser.json());
 // app.use(cors());
 
-app.listen(3000,() => console.log('listening on ${port}'));
+app.listen(port,() => console.log('listening on ${port}'));
 
 app.get('/',(req, res) => {
     queries.getAll().then(result => { res.send({data: result})})
