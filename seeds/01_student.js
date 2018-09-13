@@ -36,7 +36,72 @@ exports.seed = function(knex, Promise) {
          prevOccupation: 'Legislative Aide', 
          favoriteNum: 11, 
          pastime: 'easy climbing'
+        },
+        {
+         firstName: 'Maddie', 
+         lastName: 'Kreamer',
+         hometown: 'Des Moines, IA', 
+         prevOccupation: 'Server/Bartender',
+         favoriteNum: 7, 
+         pastime: 'Backpacking'
+        },
+        {
+         firstName: 'Steve', 
+         lastName: 'Lopez', 
+         hometown: 'FrankFort', 
+         prevOccupation: 'Bounty Hunter', 
+         favoriteNum: 710, 
+         pastime: 'running'
+        },
+        { 
+         firstName: 'Kevin', 
+         lastName: 'Potts',
+         hometown: 'OC', 
+         prevOccupation: 'Skydiver', 
+         favoriteNum: 13, 
+         pastime: 'coding'
+        }, 
+        {
+          firstName: 'Brice', 
+          lastName: 'Sinkule', 
+          hometown: 'Crete, NE', 
+          prevOccupation: 'Sale Consultant', 
+          favoriteNum: 12, 
+          pastime: 'Basketball'
+        },
+        {
+         firstName: 'Anhuelita', 
+         lastName: 'LaChica', 
+         hometown: 'Kazakhstan', 
+         prevOccupation: 'Masseuse', 
+         favoriteNum: 2, 
+         pastime: 'sleeping'
+        },
+        {
+         firstName: 'Conrad',
+         lastName: 'Wright',
+         hometown: 'Durango',
+         prevOccupation: 'Rural Development Consultant',
+         favoriteNum: 'infinity',
+         pastime: 'Bird Watching'
+        },
+        {
+          firstName: 'Jose',
+          lastName: 'Stricklin',
+          hometown: 'San German',
+          prevOccupation: 'Retail',
+          favoriteNum: 4,
+          pastime:  'Shakespearean Elocution'
+        },
+        {
+         firstName:  'Jed', 
+         lastName:  'Prentup', 
+         hometown:  'Boulder', 
+         prevOccupation: 'PokerDealer', 
+         favoriteNum: 24, 
+         pastime: 'delving'
         }
+
       ]);
     });
 };
