@@ -2,15 +2,14 @@
 
 module.exports = {
 
-  development: {
-    client: 'pg',
-    connection: 'postgresql://localhost/DATABASE_NAME_THAT_MAKES_SENSE_FOR_G95_DATABASE'
-  },
+    development: {
+        client: 'pg',
+        connection: 'postgresql://localhost/G95_DATABASE'
+    },
 
-  production: {
-    client: 'pg',
-    connection: process.env.DATABASE_URL
-  }
+    production: {
+        client: 'pg',
+        connection: process.env.DATABASE_URL
+    }
 
 };
-
